@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Albina | CoderGirl.AL</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The personal website of Albina, a 15 year old developer based in Albania." />
+        <meta name="keywords" content="albina, peposhi, codergirl.al, web design, web development, graphic design, websites, graphics, illustration, freelance, developer" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <img class="logo" src="pictures/logo.jpg">
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#about" onclick="closeNav()"> About me </a>
+          <a href="#skills" onclick="closeNav()"> My skills </a>
+          <a href="#trailer" onclick="closeNav()"> Video </a>
+          <a href="#contact" onclick="closeNav()"> Contact me </a>
+        </div>
+      </div>
+      <span class="menu" onclick="openNav()">&#9776;</span>
+      <h1 class="main-title"> Albina <br> 
+      <span class="thin"> // Web Developer</span> </h1>
+      </header>
+    <div class="about" id="about">
+      <img class="illustrations" id="aboutImage" src="pictures/aboutmeimg.svg" alt="Albina">
+      <h1>Who am I?</h1> <br>
+      <div class="aboutText">
+        <p>I'm Albina, a 15 year old developer based in Albania. I always had a passion about technology, and at the age of 12 I started to discover the Web Development World. Since then, I learn and practice everyday. Now I do projects also </p>
+      </div>
+    </div>
+    <div class="skills" id="skills">
+      <img class="illustrations" id="skillsImage" src="pictures/skillsimg.svg" alt="My Skills">
+        <h1> My skills </h1>
+        <div class="skillsCards">
+        <div class="skillsContainer">
+          <h4 class="cardheading">HTML and CSS</h4>
+          <p class="description">At the age of 12-13, I begun learning HTML5 and CSS3. I totally loved them and practice shapes my skills.</p>
+        </div>
+        <div class="skillsContainer">
+          <h4 class="cardheading">JavaScript and ReactJS</h4>
+          <p class="description">At the age of 14 I started with JavaScript and I always practice my skills. Now I am learning ReactJS.</p>
+        </div>
+        <div class="skillsContainer">
+          <h4 class="cardheading">C++ and Python</h4>
+          <p class="description">With 15 I started to learn C++ and Python. I know the basics and I practice by doing small personal apps.</p>
+        </div>
+      </div>
+      </div>
+      <div class="video-trailer">
+        <video id="trailer" class="trailer" controls>
+          <source src="pictures/myvideo.mp4" type="video/mp4">
+          <h3>Try opening on a modern browser </h3>
+        </video>
+    </div>
+    <div class="bottom">
+    <div class="contact" id="contact">
+      <h1>Get in touch</h1>
+      <img class="contactImage" src="pictures/contact.svg" alt="Contact me">
+      <div class="contactText">
+        <p> If you want to contact me, don't hesitate to. I love to work with you!</p> <br>
+        <a href="https://www.instagram.com/codergirl.al/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.codepen.io/codergirl_al/"><i class="fa fa-codepen"></i></a>
+        <a href="https://www.youtube.com/channel/UCaORjN7RwlEoq5-ETyvFJsg?view_as=subscriber"><i class="fa fa-youtube"></i></a>
+        <a href="#gmail"><i class="fa fa-envelope-o"></i></a>
+        <h5 id="gmail">Mail me: <span class="mail">codegirl.al@gmail.com</span></h5> <br>  
+        <br>
+      </div>
+      </div>
+    <footer class="footer">
+    &copy;
+    <script type="text/javascript">
+      var today = new Date();
+      var year = today.getFullYear();
+      document.write(year);
+    </script>
+
+    <p> Albina - CoderGirl.AL </p>
+    <br>
+    </footer>
+    </div>
+    
+    <script src="Scripts/animatedmenu.js"></script>
+    </body>
+</html>

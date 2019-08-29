@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sarina&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: #1f2833;
+}
+
+h1 {
+    text-align: center;
+    color: #45A29E;
+}
+
+.illustrations {
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutText {
+    width: 49%;
+    margin-left: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutText p {
+    font-size: 18px;
+    text-decoration: none;
+    color: #1f2833;
+}
+
+.skillsCards {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Noto sans HK;
+    display: inline-block;
+    text-align: center;
+}
+
+.skillsContainer {
+    width: 32%;
+    padding: 10px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1100px) {
+    .skillsCards {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .skillsContainer {
+        margin: 2px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .skillsCards {
+        display: block;
+    }
+    .skillsContainer {
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+.cardheading {
+    color: #797979;
+    font-weight: 900;
+    text-align: center;
+}
+
+.description {
+    background-color: #1f2833;
+    padding: 15px;
+    border-radius: 20px;
+    color: #66fcf1;
+}
+
+/* TRAILER */
+
+.trailer {
+    border: 1px solid #000;
+    border-left: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 60vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trailer:hover {
+    width: 85vw;
+    transition: 1s;
+}
+
+/* CONTACT FORM*/
+.contact {
+    color: #66fcf1;
+    width: 70vw;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contactText {
+    background-color: #1f2833;
+    width: 70%;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contactImage {
+    width: 400px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact a {
+    font-size: 50px;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 5px;
+    width: 25%;
+    margin-right: 5px;
+    color: #66fcf1;
+}
+
+.contact a:hover, .contact a:visited {
+    text-decoration: none;
+    color: #66fcf1;
+}
+
+.bottom {
+    background-color: #1f2833;
+    margin: 0;
+}
+
+.footer {
+    color: #66fcf1;
+    background-color: #1f2833;
+    font-size: 18px;
+    font-weight: bold;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .contactText {
+        width: 90%;
+    }
+    .contactImage {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .trailer {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .trailer:hover {
+        width: 90%;
+    }
+}
